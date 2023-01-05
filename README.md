@@ -1,2 +1,2 @@
 
-Estaba aburrido y empeze a practicar hmtl
+Estaba aburrido y empeze a practicar hmtl xd
