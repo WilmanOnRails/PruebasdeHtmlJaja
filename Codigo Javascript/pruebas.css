@@ -1,0 +1,68 @@
+* {
+    font: 300  20px 'Oswald', sans-serif;
+}
+
+.form {
+    margin: auto;
+    padding: 5px;
+}
+
+.form__row {
+    margin: auto;
+    padding: 5px;
+}
+
+.form__row td {
+    color: blue;
+}
+
+.form__row:first-child  {
+    background-color: maroon;
+}
+
+.form__row__element:first-child {
+    color: blueviolet;
+}
+
+h1 {
+    line-height: 10;
+    background-color: crimson;
+}
+
+#xd {
+    text-align: center;
+}
+
+
+.hola {
+    width: 200px;
+    text-align: center;
+    border-radius: 10%;
+    border:  7px ridge darkgoldenrod ;
+    box-shadow: 10px 20px 10px 5px black;
+    text-shadow: 5px 4px 3px gray;
+    transform: rotate(-15deg);
+    margin: 5px auto;
+    position: relative;
+    top: 380px;
+}
+
+.Padre {
+   width: 500px;
+   height: 500px;
+   margin: 30px auto;
+   background: cyan;
+    position: relative;
+    top: 20px;
+}
+
+.Hijo {
+    width: 200px;
+    height: 200px;
+    background: green;
+    position: relative;
+    top: -40px;
+    left: -60px; 
+    z-index: -2;
+}
+

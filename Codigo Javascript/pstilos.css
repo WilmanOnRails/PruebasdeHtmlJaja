@@ -1,0 +1,198 @@
+h1 {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+/*
+div {
+    opacity: 0;
+}*/
+
+.Padre {
+    background: greenyellow;
+    width: 420px;
+    height: 420px;
+    outline: 3px solid darkgoldenrod;
+    margin: 50px;
+    position: relative;
+    float: left;
+    margin-top: 1000px;
+    /*animation: movement 1s infinite linear;*/
+
+}
+
+body {
+    background: linear-gradient(to top, rgb(151, 5, 10) ,#f29);
+}
+
+@keyframes movement {
+    from {
+        left: 0;
+        bottom: 0;
+    }
+    to {
+        left: 300px;
+        bottom: -450px;
+    }
+
+}
+
+
+
+.Padre div {
+    background: royalblue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.Padre__caja1 {
+    top: 0;
+}
+.Padre__caja2 {
+    right: 0;
+}
+.Padre__caja3 {    
+    right: 0;
+    bottom: 0;
+}
+.Padre__caja4 {
+    bottom: 0;
+}
+.Padre__caja5 {
+    margin: 160px;
+}
+
+
+
+/* Estilos para el responsive nav*/
+
+
+.nav__ul {
+    background: springgreen;
+}
+
+.nav__responsive-ul {
+    display: none;
+}
+
+.nav__ul li {
+    display: inline-block;
+    padding: 12px;
+    color: white;
+}
+
+.nav__ul li:hover > a {
+    color: gray;
+}
+
+.nav__ul li:hover  {
+    color: gray;
+}
+
+.nav__ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav__ul b {
+    box-sizing: border-box;
+    width: 30px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.nav__responsive-buttom-container {
+    position: absolute;
+    right: 0 ;
+    font-size: 25px;
+    width: 100%;
+    margin-top: -40px;
+    background: springgreen;
+    padding-top: -70;
+}
+
+.nav__responsive-buttom {
+    padding: 7px 20px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 580px){
+ 
+    .nav__ul {
+        display: none;
+    }
+
+    .nav {
+        height: 40px;
+        width: 100%;
+    }
+
+    .nav__responsive-ul {
+        display: block;
+        width: 100%;
+        position: absolute;
+        background: darkcyan;
+        margin-top: 40px;
+    }
+   
+    .nav__responsive-li {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+
+    .nav__responsive-li i {
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 5px;
+        width: 25px;
+    }
+
+    .nav__responsive-li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .nav__responsive-container {
+        outline: 1px solid darkcyan;
+    }
+
+    .nav__responsive-li:hover > a  {
+        color: gray;
+    }
+    
+    .nav__responsive-li:hover  {
+        color: gray;
+    }
+}
+
+
+/*flex box*/
+
+.flex-Container {
+    display: flex;
+    border: 5px groove #acbbab;
+    height: 600px;
+    margin-top: 170px;
+    flex-wrap: wrap-reverse;/**/
+    justify-items:center;/**/
+
+}
+
+.flex-item {
+    margin: 15px;
+    padding: 5px;
+    background:skyblue;
+    height: 120px;
+    width: 200;
+    overflow: hidden;
+}
+
+
